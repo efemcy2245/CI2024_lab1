@@ -7,7 +7,7 @@ In this README there is an explanation of the algorithm:
   we create a new solution using this multiple mutation function,
 - for the first time we don't know if the solution is valid or not, so we are considering in our solution the number of True
   value inside our solution, if in the both new solution and the actual solution are not valid, then we compare the number of True,
-  more True value our solution have then more problem we modify the right elements to get a solution that is at least valid.
+  more True value our solution have then more probably we modify the right elements to get a solution that is at least valid.
 - the next step is to compare 2 solutions that are valid, we compare their fitness and we use the best as new_solution.
   - at each step we reduce the density_method variable that is used in the method multiple_mutation to decide what is the "exploration value",
     ( more value we modify and more we get a different solution). The value is reduced of 5% at each step, we reduce the exploration.
